@@ -100,7 +100,7 @@ function addGuestbook(){
 	include "footer.html";
 }//end addGuestbook
 
-function addForm($name, $email, $url, $instagram, $twitter; $note $errors){
+function addForm($name, $email, $url, $instagram, $twitter, $note, $errors){
 	// include header file
 	$self = $_SERVER['PHP_SELF'];
 	include "header.html";
